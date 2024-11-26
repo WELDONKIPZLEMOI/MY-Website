@@ -1,0 +1,119 @@
+/* Basic CSS styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the page */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    text-align: center; /* Centers the text */
+  }
+  
+  h1 {
+    color: #333; /* Dark gray text for the heading */
+    margin-top: 50px; /* Adds space above the heading */
+  }
+  
+  p {
+    color: #555; /* Lighter gray text for the paragraph */
+    font-size: 18px; /* Makes the text slightly larger */
+    margin: 20px auto; /* Adds space around the paragraph */
+    width: 60%; /* Restricts the width of the paragraph */
+  }
+  /* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the page */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding/margin don't affect element size */
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Navigation Bar Styles */
+  nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 18px;
+  }
+  
+  /* Section Styles */
+  section {
+    margin: 20px auto; /* Adds space above and below each section */
+    width: 80%; /* Restricts the width of the section */
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  section h2 {
+    color: #333; /* Dark text color for the section titles */
+  }
+  
+  section p {
+    color: #555; /* Lighter gray text for paragraphs */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text in the footer */
+    padding: 10px 0; /* Padding inside the footer */
+    text-align: center; /* Centers the footer text */
+  }
+  /* About Section Styling */
+#about {
+    margin: 30px auto; /* Adds space around the section */
+    width: 80%; /* Makes the section take up 80% of the page width */
+    padding: 20px; /* Adds some padding inside the section */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounds the corners of the section */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+#about h2 {
+    color: #333; /* Dark color for the heading */
+    font-size: 28px; /* Larger font size for the heading */
+    margin-bottom: 15px; /* Adds space below the heading */
+}
+
+#about p {
+    color: #666; /* Lighter gray color for the text */
+    font-size: 16px; /* A readable font size for paragraphs */
+    line-height: 1.6; /* Increases line height for better readability */
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    #about, #contact {
+        width: 95%;  /* Make sections take up more space on small screens */
+    }
+    
+    #about h2, #contact h2 {
+        font-size: 24px;  /* Adjust font size for smaller screens */
+    }
+    
+    #contact input, #contact textarea {
+        font-size: 14px;  /* Make text input fields more readable on mobile */
+    }
+    
+    #contact input[type="submit"] {
+        font-size: 14px;  /* Adjust submit button size for smaller screens */
+    }
+}
